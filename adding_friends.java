@@ -11,6 +11,7 @@ public class adding_friends extends JPanel{
 		
 		//label
 		main_Panel.add(Box.createRigidArea(new Dimension(0,150)));
+		// the user image will be displayed in the screen
 		//l1 = new JLabel(new ImageIcon("./icon.png"));
 		l1 = new JLabel( "**User's Image**");
 		l1.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -32,6 +33,9 @@ public class adding_friends extends JPanel{
 		
 		
 	}
+	public static void main(String args[]) {
+		new adding_friends();
+	}
 	
+	}
 			
-}
