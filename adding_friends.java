@@ -32,8 +32,6 @@ public class adding_friends extends JPanel{
 		
 		
 	}
-	public static void main(String args[]) {
-		adding_friends go = new adding_friends();
-	}
+	
 			
 }
