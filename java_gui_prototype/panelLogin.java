@@ -52,4 +52,14 @@ public class panelLogin extends JPanel {
 		this.add(buttonForgotPassword);
 
 	}
+
+	JButton getButtonRegister(){
+		return buttonRegister;
+	}
+	JButton getButtonForgotPassword(){
+		return buttonForgotPassword;
+	}
+	JButton getButtonLogin(){
+		return buttonLogin;
+	}
 }
