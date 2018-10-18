@@ -32,5 +32,9 @@ public class searching_friends {
 	    main_Frame.add(main_Panel);
 	    main_Frame.setVisible(true);
 	}
-	
-}
+	public static void main(String args[]) {
+		new searching_friends();
+	}
+		
+	}
+
