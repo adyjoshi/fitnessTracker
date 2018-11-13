@@ -10,4 +10,4 @@ User case: Viewing statistics:
      Alternative path:
         1. User selects an activity other than the default to track.
 Implementation:
-	when a user select an activity to view, the activity module comes into play. Activity module can be use to switch between various activities. The data for the activity is import from the activity detail module. The data of the activity is sorted using the data calculation module. All these are displayed by the activity display module.
+	when a user select an activity to view, the activity module comes into play. Activity module can be use to switch between various activities. The data for the activity is import from the activity detail module. The data of the activity is sorted using the data calculation modules. All these are displayed by the activity display module.
