@@ -1,0 +1,24 @@
+Iteration 1:
+Creating profile and login
+Features:
+1.	Profile creation for new user.
+2.	Signing in for old user.
+3.	Recovery of profile if the password is forgotten.
+
+Module used: profile module.
+
+Use case:
+Main path.
+1.	User open the page for login.
+2.	User enter the user name and password.
+3.	User accesses their profile.
+Alternative path.
+1.	User doesn’t have a profile.
+	a.	User click in register button.
+	b.	User enters email and password for creating a new profile.
+	c.	User can now access the profile for activity tracker.
+2.	User forgets the password.
+	a.	User click the forgot password button.
+	b.	System takes the user to a page where they can enter their email address.
+	c.	User enter the email address.
+	d.	System send an email to the user for the recovery of their profile.
