@@ -1,3 +1,5 @@
+iteration 2:
+
 Senario: A user wants to check thier record for a certain activity
 
 User case: Viewing statistics:
