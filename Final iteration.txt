@@ -1,0 +1,12 @@
+****FINAL ITERATION****
+Features:
+  Displaying of the various runs data.
+  Sorting the data (Based on attributes like date, time taken, distance covered)
+  Average speed
+  Average Distance covered
+  selection of data based on some attributes of the run
+----------------------------------------------------------------------------------------
+Work division:
+Bailey: GUIS
+Aditi:  Architecture
+Dilesh: Coding (Backend)
