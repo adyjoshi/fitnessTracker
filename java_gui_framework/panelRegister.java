@@ -74,4 +74,31 @@ public class panelRegister extends JPanel {
 	JButton getButtonBack(){
 		return buttonBack;
 	}
+
+	 public String gettext() {
+		 return textfieldUsername.getText();
+	 }
+
+	JButton  getButtonRegister() {
+		return buttonRegister;
+		
+	}
+	@SuppressWarnings("deprecation")
+	public String getConpass() {
+		return passwordfieldPasswordConfirm.getText();
+	}
+	@SuppressWarnings("deprecation")
+	public String getPass() {
+		return passwordfieldPassword.getText();
+		
+	}
+
+	
+
+
+	
+
+	
+
+	
 }
