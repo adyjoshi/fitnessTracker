@@ -4,7 +4,7 @@ import java.awt.*;
 public class panelLogin extends JPanel {
 	JButton buttonForgotPassword;
 	JButton buttonLogin;
-	JButton buttonLoginGoogle;
+	//JButton buttonLoginGoogle;
 	JButton buttonRegister;
 	JLabel labelIcon;
 	JTextField textfieldUsername;
@@ -16,15 +16,15 @@ public class panelLogin extends JPanel {
 
 		buttonForgotPassword = new JButton("Forgot Password");
 		buttonLogin = new JButton("Login");
-		buttonLoginGoogle = new JButton("Login with Google+");
+		//buttonLoginGoogle = new JButton("Login with Google+");
 		buttonRegister = new JButton("Register");
-		labelIcon = new JLabel(new ImageIcon("./icon.png"));
+		labelIcon = new JLabel(new ImageIcon("C:\\Users\\Dilesh\\Documents\\Assignments$\\FitnessTracker\\java_gui_framework\\icon.png"));
 		textfieldUsername = new JTextField("Username");
 		passwordfieldPassword = new JPasswordField("Password");
 
 		buttonForgotPassword.setAlignmentX(Component.CENTER_ALIGNMENT);
 		buttonLogin.setAlignmentX(Component.CENTER_ALIGNMENT);
-		buttonLoginGoogle.setAlignmentX(Component.CENTER_ALIGNMENT);
+		//buttonLoginGoogle.setAlignmentX(Component.CENTER_ALIGNMENT);
 		buttonRegister.setAlignmentX(Component.CENTER_ALIGNMENT);
 		labelIcon.setAlignmentX(Component.CENTER_ALIGNMENT);
 		textfieldUsername.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -45,14 +45,21 @@ public class panelLogin extends JPanel {
 		this.add(Box.createRigidArea(new Dimension(0, 10)));
 		this.add(buttonLogin);
 		this.add(Box.createRigidArea(new Dimension(0, 10)));
-		this.add(buttonLoginGoogle);
+		//this.add(buttonLoginGoogle);
 		this.add(Box.createRigidArea(new Dimension(0, 50)));
 		this.add(buttonRegister);
 		this.add(Box.createRigidArea(new Dimension(0, 10)));
 		this.add(buttonForgotPassword);
 
 	}
-
+	public String getfielduser() {
+		return textfieldUsername.getText();
+	}
+	
+	public String getpassword () {
+		return passwordfieldPassword.getText();
+	}
+	
 	JButton getButtonRegister(){
 		return buttonRegister;
 	}
