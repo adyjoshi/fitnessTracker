@@ -16,7 +16,7 @@ public class panelRegister extends JPanel {
 
 	panelRegister(){
 		super();
-
+		
 		setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
 		textfieldUsername = new JTextField();
 		textfieldEmail = new JTextField();
@@ -50,7 +50,7 @@ public class panelRegister extends JPanel {
 		passwordfieldPasswordConfirm.setPreferredSize(new Dimension(200, 30));
 		textfieldUsername.setPreferredSize(new Dimension(200, 30));
 		textfieldEmail.setPreferredSize(new Dimension(200, 30));
-
+		
 		this.add(Box.createRigidArea(new Dimension(0, 25)));
 		this.add(labelIcon);
 		this.add(Box.createRigidArea(new Dimension(0, 10)));
@@ -74,4 +74,31 @@ public class panelRegister extends JPanel {
 	JButton getButtonBack(){
 		return buttonBack;
 	}
+
+	 public String gettext() {
+		 return textfieldUsername.getText();
+	 }
+
+	JButton  getButtonRegister() {
+		return buttonRegister;
+		
+	}
+	@SuppressWarnings("deprecation")
+	public String getConpass() {
+		return passwordfieldPasswordConfirm.getText();
+	}
+	@SuppressWarnings("deprecation")
+	public String getPass() {
+		return passwordfieldPassword.getText();
+		
+	}
+
+	
+
+
+	
+
+	
+
+	
 }
